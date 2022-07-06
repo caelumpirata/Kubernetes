@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-application-app 
-          image: caelumpirata/application:latest # Image that will be used to containers in the cluster
+          image: caelumpirata/application:latest # Image that will be used to containers in the cluster and don't forget to add ( :latest ) at the end
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
