@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-conf
+data:
+  host: mydatabase.ct9lh7rafpaw.ap-southeast-1.rds.amazonaws.com
+  name: final
