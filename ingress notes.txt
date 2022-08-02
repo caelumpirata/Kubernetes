@@ -1,0 +1,9 @@
+Install Ingress controller :
+	minikube addons enable ingress
+
+*** get all components:     [ kubectl get all -n kubernetes-dashboard ]
+
+Setup Rules for Ingress:
+	
+	
+

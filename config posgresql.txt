@@ -1,0 +1,26 @@
+create all files.
+
+DEPLOY: kubectl apply -f postgres-credentials.yaml
+	kubectl get sercrets
+
+DEPLOY: kubectl apply -f postgres-configmap.yaml
+	kubectl get configmaps
+
+DEPLOY: kubectl apply -f postgres-deployment.yaml
+	kubectl get deployments
+	kubectl get services
+	kubectl get pods
+
+DEPLOY: kubectl apply -f deployment.yaml
+	kubectl get deployments
+
+*********EXECUTE POSTGRES PODS TO GET ACCESS OF THE DATABASE**************
+conncect to postgres pod using: 
+	kubectl exec -it postgres-6bf6c4d88b-wptsz bash
+
+access database of cloud postgresql:
+	psql --host=mydatabase.ct9lh7rafpaw.ap-southeast-1.rds.amazonaws.com --port=5432 --username=testuser --password --dbname=final
+
+postgres_user : dGVzdHVzZXI=
+	{created using command : $ echo -n 'testuser' | base64 }
+
