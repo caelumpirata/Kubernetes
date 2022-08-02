@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: postgres-conf
 data:
-  host: mydatabase.ct9lh7rafpaw.ap-southeast-1.rds.amazonaws.com
+  host: enter_your_host_here
   name: final
