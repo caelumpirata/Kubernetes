@@ -12,7 +12,7 @@ build docker image [ docker build -t docker-demo . ]
 
 after creating image, tag it with the DOCKER HUB { docker tag JAR_NAME   CAELUMPIRATA/JAR_NAME }
 
-push it to DOCKER HUB
+push it to DOCKER HUB  { docker push caelumpirata/jar_name }
 
 //**
 //************PULLING IMAGES FROM THE DOCKER HUB AND RUN*********************//
