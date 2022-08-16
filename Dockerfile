@@ -1,3 +1,5 @@
+# pull official openjdk:17-alpine image from docker site 
+
 FROM openjdk:17-alpine as builder
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} application.jar
