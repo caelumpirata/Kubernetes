@@ -4,6 +4,41 @@ Install Ingress controller :
 *** get all components:     [ kubectl get all -n kubernetes-dashboard ]
 
 Setup Rules for Ingress:
+
+apiVersion: networking.k8s.io/v1
+
+kind: Ingress
+
+metadata:
+
+  name: ingress-wildcard-host
+
+spec:
+
+  rules:
+
+  - host: "bettolthebot.com"
+
+    http:
+
+      paths:
+
+      - pathType: Prefix
+
+        path: "/bar"
+
+        backend:
+
+          service:
+
+            name: service1
+
+            port:
+
+              number: 80
+
+  
+
 	
 	
 
