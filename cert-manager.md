@@ -7,7 +7,6 @@ Video Reference:
 Github Link: 
         https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/tree/main/03-setup-ingress-controller/assets
         
- *****************************************************************************************************************************************************
 
  after your application is accessible through ingress,
  
@@ -24,8 +23,7 @@ Github Link:
          
          
 ## Create a file named : issuer.yaml  👈 
-------------------------------------
-
+```
 apiVersion: cert-manager.io/v1
 kind: Issuer
 metadata:
@@ -41,11 +39,11 @@ spec:
       - http01:
           ingress:
             class: nginx
-                    
+```                    
             
 ## Add following annotations line in ingress.yaml file  👈 
----------------------------------------------------
 
+```
 apiVersion: networking.k8s.io/v1
    
 kind: Ingress
@@ -73,7 +71,7 @@ spec:
       ..
       ......
       
-      
+``` 
       
 
       
