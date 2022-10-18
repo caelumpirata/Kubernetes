@@ -19,8 +19,7 @@ Github Link:
          
          kubectl create ns cert-manager
          
-         helm install cert-manager --namespace cert-manager --version v1.10.0 jetstack/cert-manager
-         
+         helm install cert-manager --namespace cert-manager --version v1.10.0 jetstack/cert-manager     
  ```   
          
          
@@ -32,10 +31,6 @@ kind: Issuer
 metadata:
   name: letsencrypt-nginx
 spec:
-  # ACME issuer configuration
-  # `email` - the email address to be associated with the ACME account (make sure it's a valid one)
-  # `server` - the URL used to access the ACME server’s directory endpoint
-  # `privateKeySecretRef` - Kubernetes Secret to store the automatically generated ACME account private key
   acme:
     email: <your email address here>
     server: https://acme-v02.api.letsencrypt.org/directory
@@ -46,9 +41,7 @@ spec:
       - http01:
           ingress:
             class: nginx
-            
-            
-            
+                    
             
 ## Add following annotations line in ingress.yaml file  👈 
 ---------------------------------------------------
