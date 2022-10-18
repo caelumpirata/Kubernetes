@@ -1,6 +1,14 @@
 # THIS IS HOW YOU ADD CERT-MANAGER TO YOUR PROJECT: 👈 
 ---------------------------------------------------
 
+Video Reference:
+        https://www.youtube.com/watch?v=MpovOI5eK58&t=1829s
+        
+Github Link: 
+        https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/tree/main/03-setup-ingress-controller/assets
+        
+ *****************************************************************************************************************************************************
+
  after your application is accessible through ingress,
  
  Visit : https://artifacthub.io/packages/helm/cert-manager/cert-manager
@@ -71,6 +79,10 @@ spec:
       .
       ..
       ......
+      
+      
+      
+
       
       
       
