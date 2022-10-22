@@ -39,7 +39,11 @@ spec:
       - http01:
           ingress:
             class: nginx
-```                    
+```           
+run:
+```
+kubectl create -f issuer.yaml
+```
             
 ## Add following annotations line in ingress.yaml file  👈 
 
@@ -72,6 +76,11 @@ spec:
       ......
       
 ``` 
+
+upgrade your ingress deployment
+```
+helm upgrade <deployment_name> char_name
+```
       
 
       
