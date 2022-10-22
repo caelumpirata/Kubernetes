@@ -30,7 +30,7 @@ metadata:
   name: letsencrypt-nginx
 spec:
   acme:
-    email: <your email address here>
+    email: <your email address here>  👈 
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-nginx-private-key
