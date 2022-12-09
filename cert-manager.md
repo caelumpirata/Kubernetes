@@ -83,6 +83,8 @@ helm upgrade <deployment_name> char_name
 ```
 
 
+🤴🏾
+
 Bit more refined version of the above example
 --------------------------------------------
 ```
