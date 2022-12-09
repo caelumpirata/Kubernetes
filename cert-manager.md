@@ -85,8 +85,8 @@ helm upgrade <deployment_name> char_name
 
 Bit more refined version of the above example
 --------------------------------------------
-      ```
-      apiVersion: networking.k8s.io/v1
+```
+apiVersion: networking.k8s.io/v1
  
 kind: Ingress
  
@@ -152,8 +152,7 @@ rules:
                      
 ingressClassName: nginx
 
-
-      ```
+```
 
       
       
