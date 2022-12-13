@@ -41,7 +41,8 @@ POD = =  collection of one or more containers (mainly 1 container) (wrapper arou
 Deployments can have one or more pods
 
 REplicas == 2
-	2 pods based on same specs
+	
+	 :2 pods based on same specs
 
 Kubernetes decides which of the node  of this is going to deploy the nodes we created in the Deployments
 
