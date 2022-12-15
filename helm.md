@@ -27,6 +27,20 @@ helm upgrade <custom_name> chart_name
 here, the chart_name is mainly the folder name which consists all you yaml Files & Folders like, values.yaml, templete etc......
 
 
+Assign name to Deployed Nodes
+-----------------------------
+```
+kubectl label nodes <your_node> kubernetes.io/role=<your_label>
+```
+
+
+Helm install :  --nodeSelector
+-------------------------------
+```
+helm install <any_custom_name> chart_name --set nodeSelector."kubernetes\.io/role"=<your_custom_role>
+```
+
+
 
 
 
