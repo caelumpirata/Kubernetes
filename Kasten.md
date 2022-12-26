@@ -10,6 +10,7 @@ install KASTEN in our new namespace (kasten-io) with chart name (k10) usingg fol
 ```
 helm install k10 kasten/k10 --namespace=kasten-io
 ```
+```
 
 Step 3: Add profile after kasten dashboard opens.
 
@@ -24,5 +25,5 @@ Step 7: Create a new Policy, and Choose IMPORT in action tab this time. (tick re
 Step 8: After Policy is created, run the Policy onCe and wait for the application to get restore in your kluster.
 
 
-
+```
 
