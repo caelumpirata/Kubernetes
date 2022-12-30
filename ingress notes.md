@@ -1,3 +1,8 @@
+# Install it using
+```
+https://artifacthub.io/packages/helm/ingress-nginx/ingress-nginx```
+
+
 Install Ingress controller :
 	minikube addons enable ingress
 
