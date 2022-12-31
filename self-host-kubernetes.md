@@ -15,7 +15,3 @@ Add your (id_rsa) and its (id_rsa.pub) in ur LOCAL MACHINES'S  root's home direc
 >> so just navigate cd .ssh and add both files (id_rsa and id_rsa.pub) inside.
 ```
 
-## Additional Link
-```
-https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-centos-7
-```
