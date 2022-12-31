@@ -19,6 +19,12 @@ Add your (id_rsa) and its (id_rsa.pub) in ur LOCAL MACHINES'S  root's home direc
 https://www.learnitguide.net/2020/03/add-new-worker-node-kubernetes-cluster.html
 ```
 
+# Labeling Node - so that you can use NODE-SELECTOR
+```
+kubectl label node ocean newnode=woker-node-3
+```
+
+
 
 # Troubleshoot Links
 ```
