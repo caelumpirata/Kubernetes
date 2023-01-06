@@ -26,6 +26,7 @@ kubectl create clusterrolebinding dashboard-admin -n default --clusterrole=clust
 
 ### Get your secret for signing in in your dashboard
 >> you find it in default namespace
+>> >> usually starts with kubernetes-dashboard-token-xxxxx
 ```
 kubectl get secret <dashboard-token-xxxxxxx> -o yaml
 ```
