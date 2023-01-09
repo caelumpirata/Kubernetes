@@ -40,6 +40,12 @@ Helm install :  --nodeSelector
 helm install <any_custom_name> chart_name --set nodeSelector."kubernetes\.io/role"=<your_custom_role>
 ```
 
+Troubleshooot
+------------------------
+```
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+```
+
 
 
 
