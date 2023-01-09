@@ -24,6 +24,10 @@ https://www.learnitguide.net/2020/03/add-new-worker-node-kubernetes-cluster.html
 kubectl label node ocean newnode=woker-node-3
 ```
 
+# Ingress-nginx
+```
+https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
+```
 
 
 # Troubleshoot Links
