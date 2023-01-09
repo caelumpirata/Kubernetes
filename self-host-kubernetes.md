@@ -25,6 +25,7 @@ kubectl label node ocean newnode=woker-node-3
 ```
 
 # Ingress-nginx
+custom ingress-nginx for self manged kuberntes 
 ```
 https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
 ```
