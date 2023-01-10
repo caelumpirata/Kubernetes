@@ -29,7 +29,38 @@ custom ingress-nginx for self manged kuberntes
 ```
 https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
 ```
-
+# ingress.yaml -2 hosts - tested using (nodeport)
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-world
+  namespace: default
+  annotations:
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: "nred.example.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: nodered-node-red
+            port:
+              number: 1880
+  - host: "g.example.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: grafana
+            port:
+              number: 80
+```
 
 # Troubleshoot Links
 ```
