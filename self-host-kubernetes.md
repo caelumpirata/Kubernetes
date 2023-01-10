@@ -29,6 +29,10 @@ custom ingress-nginx for self manged kuberntes
 ```
 https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
 ```
+apply this
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/baremetal/deploy.yaml
+```
 # ingress.yaml -2 hosts - tested using (nodeport)
 ```
 apiVersion: networking.k8s.io/v1
