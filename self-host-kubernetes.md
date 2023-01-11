@@ -13,6 +13,14 @@ Add your (id_rsa) and its (id_rsa.pub) in ur LOCAL MACHINES'S  root's home direc
 >> .ssh folder might be hidden in your case, But the folder does exits there.
 >> so just navigate cd .ssh and add both files (id_rsa and id_rsa.pub) inside.
 ```
+>> id_rsa (assigning only READ Premission)
+```
+chmod 400 ~/.ssh/id_rsa
+```
+from link 
+```
+https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open
+```
 
 # Add new Node to existing(self managed) cluster
 ```
