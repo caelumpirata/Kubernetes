@@ -18,7 +18,10 @@ kubectl edit svc <kubernetes-dashboard>
 >> press i to enable inser mode,
 >> save and exit using :wq!
 >> exit without editing :q!
->> you can access ur dashboard using, https://<ur_machine_ip_address> : <ur_dashboard_svc_nodeport> /#/login
+>> you can access ur dashboard using, 
+```
+https://<ur_machine_ip_address> : <ur_dashboard_svc_nodeport> /#/login
+```
 -----------------------------------------------------------------------------
 
 ### Create SERVICEACCOUNT
