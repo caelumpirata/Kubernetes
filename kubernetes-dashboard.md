@@ -2,16 +2,23 @@ Install Kubernetes-dashboard in self managed kuberntes.
 -------------------------------------------------------
 
 ### Add kubernetes-dashboard repository
+```
 helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+```
 ### Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
+```
 helm install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard
-
+```
 
 ### Change the "kubernetes-dashboard" service from ClusterIP ->> NodePort
 ```
 kubectl edit svc <kubernetes-dashboard>
 ```
->> you can access ur dashboard using, http://<ur_machine_ip_address> : <ur_dashboard_svc_nodeport> /#/login
+>> in case, you are not familiar with vim,
+>> press i to enable inser mode,
+>> save and exit using :wq!
+>> exit without editing :q!
+>> you can access ur dashboard using, https://<ur_machine_ip_address> : <ur_dashboard_svc_nodeport> /#/login
 -----------------------------------------------------------------------------
 
 ### Create SERVICEACCOUNT
