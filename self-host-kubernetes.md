@@ -26,6 +26,9 @@ https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open
 ```
 https://www.learnitguide.net/2020/03/add-new-worker-node-kubernetes-cluster.html
 ```
+```
+https://www.youtube.com/watch?v=mAaSZwPfKA0&ab_channel=LearnITGuideTutorials
+```
 
 # Labeling Node - so that you can use NODE-SELECTOR
 ```
