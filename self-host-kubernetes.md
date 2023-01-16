@@ -76,6 +76,37 @@ spec:
             port:
               number: 80
 ```
+# Using Digital Ocean LoadBalancer- $12/month
+Before this:
+### Your application must be accessed through NodePort through Ingress eg.. http://www.example.com : <ingress_controller_nodport> /
+-------------------------------
+Steps to follow:
+>> Step 1: Connect your applications(node-port or grafana etc..) using Ingress
+
+>> Step 2: Expose your Ingress Controller using NopePort Service
+
+>> Step 3: Inside your Digital Ocean LoadBalancer, Connect the droplet(the droplet which has ingress controller deployed in) 
+>> or you can say
+>> the droplet whose external ip is seen in ingress (after deploying ingress.yaml) 
+
+>> Step 4: Inside the Digital Ocean Load Balancer setting
+>> 
+>>  inside FORWARDING RULES
+>>  
+>>  Set Forwarding rules for TCP 80 --> TCP (INgress Controller Noedeport for TCP 80)
+>>  Set Forwarding rules for TCP 443 --> TCP (INgress Controller Noedeport for TCP 443)
+>>  
+>>  and
+>>  for health Check in next option below forwarding rules
+>>  
+>>  Choose TCP and for the port choose (INgress Controller Noedeport for TCP 80)
+>>  
+>>  SAVE !
+>>  
+>>  and 
+>>  Inside the domain Configuration of Digital ocean Dashboard,
+>> now Edit all the Ingress Application host and direct them to this **new LoadBalancer IP** .
+
 
 # Troubleshoot Links
 ```
