@@ -103,7 +103,7 @@ Step 4:
 >>  and
 >>  for health Check in next option below forwarding rules
 >>  
->>  Choose TCP and for the port choose (INgress Controller Noedeport for TCP 80)
+>>  Choose TCP and for the port choose (INgress Controller Nodeport for TCP 80)
 >>  
 >>  SAVE !
 >>  
