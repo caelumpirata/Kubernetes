@@ -80,18 +80,22 @@ spec:
 Before this:
 ### Your application must be accessed through NodePort through Ingress eg.. http://www.example.com : <ingress_controller_nodport> /
 -------------------------------
-Steps to follow:
->> Step 1: Connect your applications(node-port or grafana etc..) using Ingress
 
->> Step 2: Expose your Ingress Controller using NopePort Service
+Step 1: 
+>> Connect your applications(node-port or grafana etc..) using Ingress
 
->> Step 3: Inside your Digital Ocean LoadBalancer, Connect the droplet(the droplet which has ingress controller deployed in) 
+Step 2:
+>> Expose your Ingress Controller using NopePort Service
+
+Step 3: 
+>> Inside your Digital Ocean LoadBalancer, Connect the droplet(the droplet which has ingress controller deployed in) 
 >> or you can say
 >> the droplet whose external ip is seen in ingress (after deploying ingress.yaml) 
 
->> Step 4: Inside the Digital Ocean Load Balancer setting
+Step 4: 
+>> Inside the Digital Ocean Load Balancer setting
 >> 
->>  inside FORWARDING RULES
+>>  GO to FORWARDING RULES
 >>  
 >>  Set Forwarding rules for TCP 80 --> TCP (INgress Controller Noedeport for TCP 80)
 >>  Set Forwarding rules for TCP 443 --> TCP (INgress Controller Noedeport for TCP 443)
