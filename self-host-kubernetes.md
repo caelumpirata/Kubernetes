@@ -118,7 +118,17 @@ Step 4:
 >> now Edit all the Ingress Application host and direct them to this **new LoadBalancer IP** .
 
 
-# Troubleshoot Links
+# Troubleshoot Links and Methods
+if worker node fails which you connected from different Cloud Provider :  (NOt Ready)
+>> disabling swapoff might help :)
+```
+sudo swapoff -a
+```
+.
+.
+.
+
+more troubleshoot links
 ```
 https://stackoverflow.com/questions/52119985/kubeadm-init-shows-kubelet-isnt-running-or-healthy
 ```
