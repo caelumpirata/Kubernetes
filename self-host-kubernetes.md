@@ -78,7 +78,13 @@ spec:
 ```
 # Using Digital Ocean LoadBalancer- $12/month
 Before this:
-### Your application must be accessed through NodePort through Ingress eg.. http://www.example.com : <ingress_controller_nodport> /
+>> Your application must be accessed through NodePort through Ingress eg.. http://your_domain.com : <ingress_controller_nodport> /
+
+for this
+```
+https://docs.digitalocean.com/products/networking/load-balancers/how-to/create/
+```
+
 -------------------------------
 
 Step 1: 
