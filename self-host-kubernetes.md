@@ -38,10 +38,11 @@ kubectl label node ocean newnode=woker-node-3
 ```
 
 # Ingress-nginx
-custom ingress-nginx for self manged kuberntes 
+custom ingress-nginx for self manged kuberntes, reference link
 ```
 https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
 ```
+>> helm install blah..blah are for the cloud deploy, but
 we are using BareMEtal so ,
 apply this
 ```
