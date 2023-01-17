@@ -42,9 +42,14 @@ custom ingress-nginx for self manged kuberntes
 ```
 https://platform9.com/learn/v1.0/tutorials/nodeport-ingress
 ```
+we are using BareMEtal so ,
 apply this
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/baremetal/deploy.yaml
+```
+other ways of installing,
+```
+https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/index.md#quick-start
 ```
 # ingress.yaml -2 hosts - tested using (nodeport)
 ```
