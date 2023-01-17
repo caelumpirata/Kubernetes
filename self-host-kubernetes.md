@@ -23,6 +23,8 @@ https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open
 ```
 
 # Add new Node to existing(self managed) cluster
+>> try connecting using above method by adding one more worker ndoe in the ansible playbook HOSTS file
+>> Kubeadm join will fail, or if it wont show error , copy the kubeadm join syntax and run that manuall in the worker node (i did on vultr - different cloud provider from the master node on which it resides)
 ```
 https://www.learnitguide.net/2020/03/add-new-worker-node-kubernetes-cluster.html
 ```
