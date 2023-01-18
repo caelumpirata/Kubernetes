@@ -90,70 +90,42 @@ Bit more refined version of the above example
 --------------------------------------------
 ```
 apiVersion: networking.k8s.io/v1
- 
 kind: Ingress
- 
 metadata:
- 
-name: example-service-ingress
-
- 
-annotations:
-  cert-manager.io/issuer: letsencrypt-nginx
- 
-  nginx.ingress.kubernetes.io/rewrite-target: /$1
-
- 
+  name: hello-world
+  namespace: <your_namespace>
+  annotations:
+    cert-manager.io/issuer: letsencrypt-nginx
 spec:
-tls:
-  - hosts:
-    - <subdomain1>.example.link
-    secretName: <your secred here _any string>
-  - hosts:
-    - <subdomain2>.example.link
-    secretName: <letsencrypt-nginx>
- 
-rules:
- 
-  - host: <subdomain1>.example.link
- 
+  tls:
+    - hosts:
+      - "hello1.domain.com"
+      - "hello2.domain.com"
+      secretName: letsencrypt-nginx
+  ingressClassName: nginx
+  rules:
+  - host: "hello1.domain1.com"
     http:
- 
       paths:
- 
-        - path: /(.*)
-          pathType: Prefix
- 
-          backend:
- 
-            service:
- 
-              name: <service_name_app_1>
- 
-              port:
- 
-                number: 80
-                
-  - host: <subdomain2>.example.link
- 
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: <service_1>
+            port:
+              number: 1880
+  - host: "hello2.domain.com"
     http:
- 
       paths:
- 
-        - path: /(.*)
-          pathType: Prefix
- 
-          backend:
- 
-            service:
- 
-              name: <service_name_app_2>
- 
-              port:
- 
-                number: 3000
-                     
-ingressClassName: nginx
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: <service_2>
+            port:
+              number: 80
+
+
 
 ```
 
