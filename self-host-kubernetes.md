@@ -160,3 +160,8 @@ https://www.ibm.com/docs/en/control-desk/7.6.1.x?topic=kubernetes-installing-kub
 ```
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 ```
+
+>> aws instance no ping issue with public ip
+```
+https://arcadian.cloud/aws/2022/07/01/4-reasons-you-cannot-ping-your-aws-ec2-instance-and-how-to-fix-them/#:~:text=Quick%20Fix%3A%20The%20most%20common,inbound%20in%20your%20security%20group.
+```
