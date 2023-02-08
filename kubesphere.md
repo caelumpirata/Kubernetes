@@ -55,7 +55,9 @@ edgeruntime:          # Add edge nodes to your cluster and deploy workloads on e
 
 ```
 
->> edit *cloudcore.yaml*
+
+## Additional Changes to make
+edit *cloudcore.yaml*
 
 ![image](https://user-images.githubusercontent.com/85424262/217455931-9734e251-a941-4f06-a8ed-40851f5d85fd.png)
 
