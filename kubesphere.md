@@ -55,6 +55,54 @@ edgeruntime:          # Add edge nodes to your cluster and deploy workloads on e
 
 ```
 
+>> edit *cloudcore.yaml*
+
+![image](https://user-images.githubusercontent.com/85424262/217455931-9734e251-a941-4f06-a8ed-40851f5d85fd.png)
+
+```
+apiVersion: cloudcore.config.kubeedge.io/v1alpha2
+kind: CloudCore
+kubeAPIConfig:
+  kubeConfig: ""
+  master: ""
+modules:
+  cloudHub:
+    advertiseAddress:
+    - MASTER_NODE_PUBLIC_IP   #------------------------------> MASTER_NODE_PUBLIC_IP
+    nodeLimit: 1000
+    tlsCAFile: /etc/kubeedge/ca/rootCA.crt
+    tlsCertFile: /etc/kubeedge/certs/edge.crt
+    tlsPrivateKeyFile: /etc/kubeedge/certs/edge.key
+    unixsocket:
+      address: unix:///var/lib/kubeedge/kubeedge.sock
+      enable: true
+    websocket:
+      address: MASTER_NODE_PUBLIC_IP   #------------------------------> MASTER_NODE_PUBLIC_IP
+      enable: true
+      port: 10000
+    quic:
+      address: MASTER_NODE_PUBLIC_IP  #------------------------------> MASTER_NODE_PUBLIC_IP
+      enable: false
+      maxIncomingStreams: 10000
+      port: 10001
+    https:
+      address: MASTER_NODE_PUBLIC_IP #------------------------------> MASTER_NODE_PUBLIC_IP
+      enable: true
+      port: 10002
+  cloudStream:
+    enable: true
+    streamPort: 10003
+    tunnelPort: 10004
+  dynamicController:
+    enable: false
+  router:
+    enable: false
+  iptablesManager:
+    enable: true
+    mode: external
+```
+
+
 
 
 
