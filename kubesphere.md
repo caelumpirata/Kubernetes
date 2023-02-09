@@ -149,6 +149,8 @@ https://kubesphere.io/docs/v3.3/installing-on-linux/cluster-operation/add-new-no
 >> just add the new node detail in *config-sample.yaml* like you did when adding master and worker node address and name etc in multinode installation step after deploying *kubekey*
 
 
+# Failed to Schedule pod in *EDGE NODE*
+just remove taint from edge node if availalbe
 
 
 # Troubleshoot links:
