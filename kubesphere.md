@@ -158,3 +158,47 @@ CA certificate error solved using this -.
 ```
 https://kubesphere.io/forum/d/4359-kubesphere-31-ksinstall
 ```
+
+## Metrics Data unavailable for EdgeNOde
+```
+https://kubesphere.io/docs/v3.3/pluggable-components/pod-ip-pools/#enable-pod-ip-pools-before-installation
+```
+make changes to 
+```
+network:
+
+  ippool:
+
+    type: calico # Change "none" to "calico".
+
+```
+
+2nd Change
+```
+https://kubesphere.io/docs/v3.3/installing-on-linux/cluster-operation/add-edge-nodes/
+```
+```
+edgeStream:
+
+enable: true #Change "false" to "true".。
+
+handshakeTimeout: 30
+
+readDeadline: 15
+
+server: xx.xxx.xxx.xxx:10004 #If port forwarding is not configured, change the port ID to 30004 here. #----------------------------->>consider changing it to 30004
+
+tlsTunnelCAFile: /etc/kubeedge/ca/rootCA.crt
+
+tlsTunnelCertFile: /etc/kubeedge/certs/server.crt
+
+tlsTunnelPrivateKeyFile: /etc/kubeedge/certs/server.key
+
+writeDeadline: 15
+```
+
+Consider installing it 
+```
+https://kubesphere.io/docs/v3.3/pluggable-components/service-topology/
+```
+
