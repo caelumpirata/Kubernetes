@@ -79,16 +79,16 @@ modules:
       address: unix:///var/lib/kubeedge/kubeedge.sock
       enable: true
     websocket:
-      address: MASTER_NODE_PUBLIC_IP   #------------------------------> MASTER_NODE_PUBLIC_IP
+      address: 0.0.0.0
       enable: true
       port: 10000
     quic:
-      address: MASTER_NODE_PUBLIC_IP  #------------------------------> MASTER_NODE_PUBLIC_IP
+      address: 0.0.0.0
       enable: false
       maxIncomingStreams: 10000
       port: 10001
     https:
-      address: MASTER_NODE_PUBLIC_IP #------------------------------> MASTER_NODE_PUBLIC_IP
+      address: 0.0.0.0
       enable: true
       port: 10002
   cloudStream:
