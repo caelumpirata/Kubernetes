@@ -472,3 +472,11 @@ verify:
 
 $ curl 127.0.0.1:10550/api/v1/services
 {"apiVersion":"v1","items":[{"apiVersion":"v1","kind":"Service","......}
+
+```
+
+# Troubleshoot
+```
+https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
+```
+
