@@ -169,7 +169,7 @@ network:
 
   ippool:
 
-    type: calico # Change "none" to "calico".
+    type: weave-scope # Change "none" to "weave-scope".
 
 ```
 
