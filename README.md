@@ -1,7 +1,5 @@
 # Docker-Kubernates
 ------------------------------
-
----------------------------------
 Container
 ----------
 			  = Lightweight standalone executable software package
