@@ -130,6 +130,10 @@ Last login: Fri Jul  1 09:25:01 2022 from 192.168.20.168
 
 
 # Accesssing edgenode pod externally using edgenode ip address [LOCALLY ON THE EDGE ITSELF]
+reference link:
+```
+https://www.alibabacloud.com/help/en/container-service-for-kubernetes/latest/use-the-host-network
+```
 ```
 apiVersion: apps/v1
 kind: Deployment
