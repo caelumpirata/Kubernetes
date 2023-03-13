@@ -5,7 +5,7 @@ https://kubesphere.io/docs/v3.3/installing-on-linux/introduction/multioverview/
 
 ## *Prerequisite*:
 - **Kubernetes Version** : v1.21.14  
-- **Node Configuration** : CPU: 4 Cores, Memory: 4 G, Disk Space: 40 G
+- **Node Configuration** : CPU: 4 Cores, Memory: 4GB, Disk Space: 40GB
 - **Necessary Downloads before you start** :
  ![image](https://user-images.githubusercontent.com/85424262/221347868-b746ee15-dd8f-4604-b7b0-b473bb88f039.png)
 
