@@ -161,7 +161,8 @@ spec:
 
 ```
 
-
+-----------------------------------------------------------------------------------------
+# BRIEF EXPLAINATION OF ABOVE STEPS
 ```
 Use KubeEdge and EdgeMesh to realize node communication in edge complex network scenarios
 
