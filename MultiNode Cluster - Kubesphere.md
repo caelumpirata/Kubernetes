@@ -129,6 +129,39 @@ Last login: Fri Jul  1 09:25:01 2022 from 192.168.20.168
 ```
 
 
+# Accesssing edgenode pod externally using edgenode ip address [LOCALLY ON THE EDGE ITSELF]
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edge-app
+spec:
+  selector:
+    matchLabels:
+      app: edge-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: edge-app
+    spec:
+      hostNetwork: true    # ENABLE THIS 
+      containers:
+        - name: edge-app
+          image: <ADD_CUSTOM_IMAGE>
+          imagePullPolicy: Always
+          ports:
+            - containerPort: <EXPOSED_PORT_OF_IMAGE>
+      nodeSelector:
+          kubernetes.io/hostname: <YOUR_EDGE_NODE_NAME>
+      tolerations:
+        - key: "node-role.kubernetes.io/edge"    # MAKING SURE THE POD MUST BE DEPLOYED ON EDGE NODE ONLY
+          operator: "Exists"
+          effect: "NoSchedule"
+
+```
+
+
 ```
 Use KubeEdge and EdgeMesh to realize node communication in edge complex network scenarios
 
