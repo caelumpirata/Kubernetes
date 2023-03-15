@@ -9,6 +9,7 @@ install *socat* and *conntrack* - if asked while deploying *kubekey*
 sudo apt-get update
 sudo apt-get install socat
 sudo apt install conntrack
+sudo apt install ebtables
 ```
 
 
