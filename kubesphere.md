@@ -203,3 +203,8 @@ Consider installing it
 https://kubesphere.io/docs/v3.3/pluggable-components/service-topology/
 ```
 
+# Access pod outside the cluster
+```
+https://alesnosek.com/blog/2017/02/14/accessing-kubernetes-pods-from-outside-of-the-cluster/
+```
+
