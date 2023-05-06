@@ -11,3 +11,8 @@ make sure you can connect to
 ```
 telnet <MASTER_NODE_IP> 6443
 ```
+
+### systemd, cgroupfs error - unable to connect edgenode with kubesphere
+```
+https://stackoverflow.com/questions/45708175/kubelet-failed-with-kubelet-cgroup-driver-cgroupfs-is-different-from-docker-c
+```
