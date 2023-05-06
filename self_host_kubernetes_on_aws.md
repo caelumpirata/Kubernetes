@@ -16,3 +16,6 @@ telnet <MASTER_NODE_IP> 6443
 ```
 https://stackoverflow.com/questions/45708175/kubelet-failed-with-kubelet-cgroup-driver-cgroupfs-is-different-from-docker-c
 ```
+```
+sudo systemctl restart docker
+```
