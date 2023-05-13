@@ -1,4 +1,4 @@
-# unable to join worker node in kubesphere while your both master and worker nodes are on AWS
+# Unable to join worker node in kubesphere while your both master and worker nodes are on AWS
 go to master and worker instance security group and add rule (ALL TCP) from anywhere in  inbound rules.
 
 
