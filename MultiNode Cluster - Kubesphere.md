@@ -515,6 +515,9 @@ $ curl 127.0.0.1:10550/api/v1/services
 
 # Troubleshoot
 ```
+https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/
+```
+```
 https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
 ```
 
