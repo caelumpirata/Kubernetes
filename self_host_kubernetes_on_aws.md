@@ -32,3 +32,8 @@ sudo systemctl restart docker
 ```
 https://superuser.com/questions/1017959/how-to-know-if-i-am-using-systemd-on-linux
 ```
+
+# can't access edgenode from master socks5
+```
+https://phoenixnap.com/kb/ssh-permission-denied-publickey#ftoc-heading-4
+```
