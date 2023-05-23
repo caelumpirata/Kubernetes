@@ -37,3 +37,8 @@ https://superuser.com/questions/1017959/how-to-know-if-i-am-using-systemd-on-lin
 ```
 https://phoenixnap.com/kb/ssh-permission-denied-publickey#ftoc-heading-4
 ```
+
+# Allow all traffic in Ubuntu
+```
+sudo ufw default allow
+```
