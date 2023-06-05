@@ -33,6 +33,11 @@ sudo systemctl restart docker
 https://superuser.com/questions/1017959/how-to-know-if-i-am-using-systemd-on-linux
 ```
 
+# SSL in AWS LoadBalancer
+```
+https://www.howtogeek.com/devops/how-to-setup-free-ssl-certificates-using-aws-load-balancers/
+```
+
 # can't access edgenode from master socks5
 ```
 https://phoenixnap.com/kb/ssh-permission-denied-publickey#ftoc-heading-4
