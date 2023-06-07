@@ -1,3 +1,8 @@
+# ssh using pvt key and public ip
+```
+ssh -i .ssh/id_rsa root@<public)ip>
+```
+
 # Docker-Kubernates
 ------------------------------
 Container
