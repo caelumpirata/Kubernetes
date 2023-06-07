@@ -1,3 +1,7 @@
+# chmod permissions
+![image](https://github.com/caelumpirata/Kubernetes/assets/85424262/e51c0f7b-3fa8-4923-98ec-f9e9978fcc41)
+
+
 # ssh using pvt key and public ip
 ```
 ssh -i .ssh/id_rsa root@<public)ip>
