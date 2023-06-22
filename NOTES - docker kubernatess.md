@@ -20,7 +20,9 @@ push it to DOCKER HUB  { docker push caelumpirata/jar_name }
 make sure to delete the same image you created before pulling the same from docker hub
 
 docker run -p 8080:8080 caelumpirata/docker-image  [ first that we will access in browser and the second port is of the uploaded image]
-
+```
+docker run -p <custom_port>:8080 caelumpirata/docker-image:tag
+```
 it will pull the image run it automatically, 
 
 
