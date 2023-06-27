@@ -12,3 +12,12 @@ source:
 ```
 https://github.com/kubeedge/edgemesh/issues/403
 ```
+
+
+# Edgemesh :v1.12.0 (4 agent doing all the work )
+```
+helm install edgemesh --namespace kubeedge \
+--set agent.image=kubeedge/edgemesh-agent:v1.12.0 \
+--set agent.relayNodes[0].nodeName=k8s-node1,agent.relayNodes[0].advertiseAddress="{119.8.211.54,2.2.2.2}" \
+https://raw.githubusercontent.com/kubeedge/edgemesh/release-1.12/build/helm/edgemesh.tgz
+```
