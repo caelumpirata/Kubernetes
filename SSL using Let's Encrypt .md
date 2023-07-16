@@ -1,4 +1,5 @@
 # Tested in VUltr instance
+## make sure that the DNS(example.com) is attached to vultr
 Step 1 - Create new instance.
 
 Step 2 - apt update
