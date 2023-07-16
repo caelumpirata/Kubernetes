@@ -19,3 +19,20 @@ and follow this 👇
 ```
 https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
 ```
+
+# Troubleshoot
+nginx: [error] invalid PID number "" in "/run/nginx.pid"
+```
+https://stackoverflow.com/questions/36176255/error-invalid-pid-number-in-run-nginx-pid
+```
+
+```
+https://community.letsencrypt.org/t/nginx-invalid-pid-number-error-during-certbot-renew/85405/7
+```
+```
+sudo service nginx stop
+sudo rm /run/nginx.pid
+sudo service nginx start
+```
+
+
