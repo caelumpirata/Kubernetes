@@ -20,6 +20,10 @@ and follow this 👇
 https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
 ```
 
+if this eror occurs,
+![image](https://github.com/caelumpirata/Kubernetes/assets/85424262/e32b8ef7-df63-4d5c-85ca-714159564427)
+ 👇 
+
 # Troubleshoot
 nginx: [error] invalid PID number "" in "/run/nginx.pid"
 ```
