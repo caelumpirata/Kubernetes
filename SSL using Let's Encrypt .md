@@ -1,6 +1,8 @@
 # Tested in VUltr instance
 Step 1 - Create new instance.
+
 Step 2 - apt update
+
 Step 3 - open http, https
 ```
 ufw allow http
