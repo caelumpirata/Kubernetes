@@ -1,4 +1,11 @@
 # Tested in VUltr instance
+
+Best Apporach for Single instance---
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04
+```
+
+
 ## make sure that the DNS(example.com) is attached to vultr
 Step 1 - Create new instance.
 
