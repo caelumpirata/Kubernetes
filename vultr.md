@@ -16,3 +16,5 @@
 <img width="782" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/d24bd45d-971b-4efe-bc4e-5648723bd401">
 
 ### SSL certificates in this ssl part in loadbalancer are create using certbot - given domain name  - genreated certificate and pasted here
+### ingress.yaml are stock, no change
+<img width="433" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/113eafd4-1d94-4d7b-9214-96d81e1513d1">
