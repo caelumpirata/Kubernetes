@@ -1,6 +1,7 @@
 # Command to build image which works on multiple arch edge (ubuntu based)
 build + push 
 ```
+# First, ensure you have Docker Buildx set up and activated:
 docker buildx create --use
 
 # Tag the image with platform-specific tags and push it to Docker Hub
