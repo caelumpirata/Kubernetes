@@ -29,6 +29,7 @@ done
       name: keadm-token-pod
       namespace: default
     spec:
+      restartPolicy: Always
       containers:
       - name: token-container
         image: ubuntu  # Replace with the image you want to use
