@@ -1,3 +1,4 @@
+// token to create edgenode generate in kubesphere
 # Steps i created to achieve this
 kubeconfig only allows kubectl command (keadm not allowed)
 
