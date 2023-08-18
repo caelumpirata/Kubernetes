@@ -21,7 +21,9 @@ while true; do
     sleep 1  # Sleep for 1 minute
 done
 ```
-7. the deployment yaml looks like this(pod will recreate with same name if one dies)
+7. the deployment yaml looks like this(pod will recreate with same name if one dies) -
+   kubectl apply -f  keadm-token-pod.yaml
+
    ```
     apiVersion: apps/v1
     kind: StatefulSet
@@ -44,7 +46,7 @@ done
             image: ubuntu  # Replace with the image you want to use
             command: ["/bin/sleep", "infinity"]
    ```
-8. the java code looks like this (the kubeconfig.yaml is in------ /src/main/resouces directory)
+9. the java code looks like this (the kubeconfig.yaml is in------ /src/main/resouces directory)
  ```
    try {
             // Execute the script inside the pod
