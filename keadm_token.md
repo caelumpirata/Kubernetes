@@ -1,4 +1,4 @@
-// token to create edgenode generate in kubesphere
+// token to connect edgenode generated in kubesphere  - tried to genrate the same token using java
 # Steps i created to achieve this
 kubeconfig only allows kubectl command (keadm not allowed)
 
