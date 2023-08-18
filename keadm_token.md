@@ -21,7 +21,24 @@ while true; do
     sleep 1  # Sleep for 1 minute
 done
 ```
-7. the java code looks like this (the kubeconfig.yaml is in------ /src/main/resouces directory)
+7. the pod yaml looks like this
+   ```
+    apiVersion: v1
+    kind: Pod
+    metadata:
+      name: keadm-token-pod
+      namespace: default
+    spec:
+      containers:
+      - name: token-container
+        image: ubuntu  # Replace with the image you want to use
+        command:
+          - "/bin/sleep"
+        args:
+          - "infinity"
+
+   ```
+8. the java code looks like this (the kubeconfig.yaml is in------ /src/main/resouces directory)
  ```
    try {
             // Execute the script inside the pod
