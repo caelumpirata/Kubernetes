@@ -7,3 +7,4 @@ when using clusterIP, ingress looks for private_ip + service_port(9090) to acces
 but 
 
 when using the service_name + nodeport_port, it goes for 10.233.13.40:31963  (this one worked for me 😁) 
+the same is accessible through master node too(curl ......)
