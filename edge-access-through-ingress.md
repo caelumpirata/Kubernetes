@@ -1,5 +1,5 @@
 
-master node ufw was disabled
+
 i enabled it 
 ----------------------
 use the service_name + nodeport shown here in ingress file.
@@ -12,6 +12,7 @@ but
 
 when using the service_name + nodeport_port, it goes for 10.233.13.40:31963  (this one worked for me 😁) 
 the same is accessible through master node too(curl ......)
+master node ufw was disabled🥱but after disabliing it is accessible too
 
 
 
