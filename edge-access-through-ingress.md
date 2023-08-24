@@ -8,7 +8,7 @@ add annotation in ingress file like this
 
 i enabled it 
 ----------------------
-use the service_name + nodeport shown here in ingress file.
+use the service_name + nodeport shown here .
 <img width="1080" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/b6cd45cc-c393-4adc-b22b-a43cc1fbd061">
 
 
