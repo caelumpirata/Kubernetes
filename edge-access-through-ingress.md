@@ -1,3 +1,5 @@
+add annotation in ingress file like this
+![image](https://github.com/caelumpirata/Kubernetes/assets/85424262/3dbd0067-27de-4bd7-aab7-54ae4a902138)
 
 
 i enabled it 
