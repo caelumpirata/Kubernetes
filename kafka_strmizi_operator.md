@@ -58,3 +58,16 @@ spec:
     userOperator: {}
 
 ```
+----------------------------
+{for external access change (my-cluster-kafka-bootstrap:9092) with (ip_address:nodeport)}
+### run producer using 👇
+```
+kubectl -n kafka run kafka-producer -ti --image=quay.io/strimzi/kafka:0.38.0-kafka-3.6.0 --rm=true --restart=Never -- bin/kafka-console-producer.sh --bootstrap-server my-cluster-kafka-bootstrap:9092 --topic my-topic
+
+```
+
+### run consumer using 👇
+```
+kubectl -n kafka run kafka-consumer -ti --image=quay.io/strimzi/kafka:0.38.0-kafka-3.6.0 --rm=true --restart=Never -- bin/kafka-console-consumer.sh --bootstrap-server my-cluster-kafka-bootstrap:9092 --topic my-topic --from-beginning
+
+```
