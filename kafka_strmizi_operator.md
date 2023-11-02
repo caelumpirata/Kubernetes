@@ -1,6 +1,12 @@
 # kafka on kubernetes using strmizi operator
 
-one_clicl_installation.yaml
+### reference:
+```
+https://strimzi.io/quickstarts/
+```
+To, Create an Apache Kafka cluster use this yaml given 👇
+
+## one_click_installation.yaml
 ```
 apiVersion: kafka.strimzi.io/v1beta2
 kind: Kafka
