@@ -1,11 +1,11 @@
-# EdgeMesh v1.11.0(server + agent)
+# EdgeMesh v1.11.0(server + agent) ✅working 30 nov,2023✅
 ```
 helm install edgemesh \
 --set agent.image=kubeedge/edgemesh-agent:v1.11.0 \
 --set server.image=kubeedge/edgemesh-server:v1.11.0 \
 --set agent.modules.edgeProxy.socks5Proxy.enable=true \
 --set server.nodeName=worker1 \
---set server.advertiseAddress="{master-node-ip}" \
+--set server.advertiseAddress="{worker1-node-ip}" \
 https://raw.githubusercontent.com/kubeedge/edgemesh/release-1.11/build/helm/edgemesh.tgz
 ```
 source: 
