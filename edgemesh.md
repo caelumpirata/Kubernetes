@@ -1,6 +1,6 @@
 # EdgeMesh v1.11.0(server + agent) ✅working 30 nov,2023✅
 ```
-helm install edgemesh -n kubeedge\
+helm install edgemesh -n kubeedge \
 --set agent.image=kubeedge/edgemesh-agent:v1.11.0 \
 --set server.image=kubeedge/edgemesh-server:v1.11.0 \
 --set agent.modules.edgeProxy.socks5Proxy.enable=true \
