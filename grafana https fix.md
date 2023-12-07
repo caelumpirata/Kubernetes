@@ -1,8 +1,11 @@
 # Grafana HTTPS fix
 -------------------
-clone helm chart of grafna
-edit values.yaml 
-uncomment *grafana.ini.server.root_url* and set the value as your domain name 
+1. clone helm chart of grafna
+2. edit values.yaml 
+3. uncomment
+   > *grafana.ini.server.root_url*
+   
+  and set the value as your domain name 
 ```
 grafana.ini:
   paths:
