@@ -140,7 +140,7 @@ spec:
     spec:
       containers:
       - name: test-app-container
-        image: caelumpirata/keadm-token:dec_3_13
+        image: <image_name>
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
