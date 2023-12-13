@@ -96,9 +96,13 @@ done
 # update DEC - 2023 
 ✅✅✅✅
 > what we are doing is
+
 > the `keadm-token.sh` command is running on master node which runs `kubectl gettoken` command and store the token in the root directory of the master node itself.
+
 > it runs at interval of 1 min.
+
 > what is does is, it copies the token to the root directory of the app whose pod in running on kuberntes and that app generates the full edgenode join `one-click-deploy.sh` command.
+
 > the command copies the `token` and add in the one-click-config script  at its appropriate place  
 ✅✅✅✅✅
 ---------------------
