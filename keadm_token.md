@@ -46,6 +46,12 @@ done
             image: ubuntu  # Replace with the image you want to use
             command: ["/bin/sleep", "infinity"]
    ```
+
+   > you can get kubeconfig.yaml data from
+   ```
+   https://kubesphere.io/docs/v3.4/multicluster-management/enable-multicluster/retrieve-kubeconfig/
+   ```
+   
 9. the java code looks like this (the kubeconfig.yaml is in------ /src/main/resouces directory)
  ```
    try {
