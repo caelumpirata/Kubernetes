@@ -4,6 +4,12 @@
 ```
 https://strimzi.io/quickstarts/
 ```
+
+update dec30 ✅✅✅✅✅✅
+-----------------
+```
+https://strimzi.io/docs/operators/in-development/deploying#deploying-cluster-operator-helm-chart-str
+```
 To, Create an Apache Kafka cluster use this yaml given 👇
 
 ## one_click_installation.yaml
