@@ -66,4 +66,7 @@ kuberenetes giver storage in the form of PERSISTANT VOLUMES
 sidecar is additionl port that statys with the main pod and mainily used while metrics and stuffs
 
 
-
+## use worker node disk as local-storage in kubernetes
+```
+https://lapee79.github.io/en/article/use-a-local-disk-by-local-volume-static-provisioner-in-kubernetes/
+```
