@@ -5,7 +5,7 @@ add this in spring boot `application.properties`
 spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
 ```
-for infinit size upload
+for infinite size upload
 ```
 spring.servlet.multipart.max-file-size=-1
 spring.servlet.multipart.max-request-size=-1
