@@ -26,3 +26,11 @@ grafana.ini:
       # The full public facing url you use in browser, used for redirects and emails
      root_url: https://<your-domain-name>
 ```
+
+## fix `Refused to display 'https://example.com/ in a frame because it set 'X-Frame-Options' to 'deny'.`
+```
+security:
+    allow_embedding: true
+auth.anonymous:
+    enabled: true
+```
