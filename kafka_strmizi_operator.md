@@ -133,3 +133,20 @@ kubectl -n kafka run kafka-consumer -ti --image=quay.io/strimzi/kafka:0.38.0-kaf
 ```
 https://strimzi.io/blog/2018/07/30/running-kafka-on-dedicated-nodes/
 ```
+add this following toleration and affinity
+```
+tolerations:
+      - key: "dedicated"
+        operator: "Equal"
+        value: "Kafka"
+        effect: "NoSchedule"
+    affinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+          - matchExpressions:
+            - key: dedicated
+              operator: In
+              values:
+              - Kafka
+```
