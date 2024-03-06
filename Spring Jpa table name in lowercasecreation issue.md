@@ -3,8 +3,11 @@
 write your column/table name inside `"\"replace_me\""` if it contains any Uppercase letter in it.
 
 > example
+
 > Dog -> Dog
+
 > CAt -> CAt
+
 > noob -> noob
 
 add this in `application.properties` file
