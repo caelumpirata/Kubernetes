@@ -1,3 +1,5 @@
+# How to create the table name same as you write in @Table | `postgresql` | `Spring JPA`
+
 add this in `application.properties` file
 ```
 spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
