@@ -1,4 +1,19 @@
 ## update vaadin component value using @Push  and @ClientCallable
+>> make sure to add `@push` annotation in `Application.java`
+
+```
+@Push
+@SpringBootApplication
+@Theme(value = "my-app", variant = Lumo.DARK)
+public class Application implements AppShellConfigurator {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+
+}
+```
+
 ```
 https://vaadin.com/docs/v23/advanced/server-push#push.access
 ```
