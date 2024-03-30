@@ -4,14 +4,14 @@
 ## [initial setup](#1--git-clone-your-repo-to-your-local-machine)
 ## [Best practice after your `Initial Setup` is done](#for-those-who-have-already-setup-their-local-env)
 
-### 1.  Git clone your repo to your local machine.
+### 1. Git clone your repo to your local machine.
    <img width="330" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/f4183aa3-985a-44c5-9462-f2c67fb5b007">
    
    ```
     git clone https://github.com/<username>/<repo_name>.git
    ```
 
-### 2. enter your repo directory
+### 2. Enter your repo directory
 
   ```
   cd repo_name
@@ -21,7 +21,7 @@ currently you are in `main` branch
 <img width="295" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/3588e8d8-da3b-4fc5-aeb8-17db55b1fc8f">
 
 
-### 3. create a new branch to work with
+### 3. Create a new branch to work with
 
   Basically `main` branch codes are used in production, that's why we will create new branch to do changes from our side.
    
@@ -34,7 +34,7 @@ currently you are in `main` branch
     
 
 
-### 4 . update  image `tag` name in `.gitlab-ci.yml` file
+### 4 . Update  image `tag` name in `.gitlab-ci.yml` file
   ```
   nano .gitlab-ci.yml
   ```
@@ -58,7 +58,7 @@ variables:
 save the changes using  `ctrl + x` and then press `y` to save, then press  `enter`.
 
 ### 5 . Put your updated files which you want to upload in this directory (just copy and paste).
-### 6. after your files are copied, then run these commands
+### 6. After your files are copied, then run these commands
    ```
    git add .
    ```
