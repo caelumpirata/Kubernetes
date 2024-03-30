@@ -84,7 +84,7 @@ or create a new one as per your need.
 -----------------------
 ## For those who have already setup their local env
 
-make sure to run command `git pull origin main` before you make changes in local and push your local changes to git.
+make sure to run command `git pull` before you make changes in local and push your local changes to git.
 
 why??
 
