@@ -69,6 +69,11 @@ save the changes using  `ctrl + x` and then press `y` to save, then press  `ente
    git push origin branch_name
    ```
 
+✅ next time, you can use this same branch 
+just  `copy and paste the code` and  `git add .` and make some comment and push it to git.
+
+or create a new one as per your need.
+
 -----------------------
 ## For those who have already setup their local env
 
