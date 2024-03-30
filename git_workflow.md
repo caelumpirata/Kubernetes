@@ -92,4 +92,6 @@ answer is to make your local code match with the `main` branch in the git,
 
 your another colleagues might have made some changes while working in same project while you were away !
 
+✅ `it means when you push from your side, your push branch will have the latest code from other people + the code you changed particularly in this branch`
+
 and this is mandatory step for smooth workflow
