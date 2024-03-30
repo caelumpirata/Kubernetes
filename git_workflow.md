@@ -1,7 +1,7 @@
 # Git Workflow
 
 
-### fdhksjds [initial setup](create-a-new-branch-to-work-with)
+### Initial setup [initial setup](#create-a-new-branch-to-work-with)
 ### 1.  Git clone your repo to your local machine.
    <img width="330" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/f4183aa3-985a-44c5-9462-f2c67fb5b007">
    
