@@ -1,7 +1,9 @@
 # Git Workflow
 
 
-### Initial setup [initial setup](#1-create-a-new-branch-to-work-with)
+## [initial setup](#1--git-clone-your-repo-to-your-local-machine)
+## [Best practice after your `Initial Setup` is done](#for-those-who-have-already-setup-their-local-env)
+
 ### 1.  Git clone your repo to your local machine.
    <img width="330" alt="image" src="https://github.com/caelumpirata/Kubernetes/assets/85424262/f4183aa3-985a-44c5-9462-f2c67fb5b007">
    
@@ -67,8 +69,8 @@ save the changes using  `ctrl + x` and then press `y` to save, then press  `ente
    git push origin branch_name
    ```
 
-
-## for those who have already setup their local env
+-----------------------
+## For those who have already setup their local env
 
 >> make sure to run command `git pull origin main` before you make changes in local and push your local changes to git.
 >> 
