@@ -84,12 +84,12 @@ or create a new one as per your need.
 -----------------------
 ## For those who have already setup their local env
 
->> make sure to run command `git pull origin main` before you make changes in local and push your local changes to git.
->> 
->> why??
->> 
->> answer is to make your local code match with the `main` branch in the git,
->>
->>  your another colleagues might have made some changes while working in same project while you were away !
->> 
->>  and this is mandatory step for smooth workflow
+make sure to run command `git pull origin main` before you make changes in local and push your local changes to git.
+
+why??
+
+answer is to make your local code match with the `main` branch in the git,
+
+your another colleagues might have made some changes while working in same project while you were away !
+
+and this is mandatory step for smooth workflow
