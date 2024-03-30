@@ -68,9 +68,13 @@ save the changes using  `ctrl + x` and then press `y` to save, then press  `ente
    ```
    git push origin branch_name
    ```
-📌 Don't forget to update [.gitlab-ci.yml](#4--update--image-tag-name-in-gitlab-ciyml-file) file everytime you push `to create new image'
+
+
 ✅ next time, you can use this same branch 
+
 just  `copy and paste the code` and  `git add .` and make some comment and push it to git.
+
+📌 Don't forget to update [.gitlab-ci.yml](#4--update--image-tag-name-in-gitlab-ciyml-file) file everytime you push `to create new image'
 
 or create a new one as per your need.
 
