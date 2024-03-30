@@ -1,4 +1,4 @@
-# Git Workflow
+# Basice Git Workflow
 
 
 ## [initial setup](#1--git-clone-your-repo-to-your-local-machine)
