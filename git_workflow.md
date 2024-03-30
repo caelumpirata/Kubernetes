@@ -58,6 +58,9 @@ variables:
 save the changes using  `ctrl + x` and then press `y` to save, then press  `enter`.
 
 ### 5 . Put your updated files which you want to upload in this directory (just copy and paste).
+
+  ⚠ don't copy `.git`, `node-modules` and `taget' directory if you are using `Java project with Maven`  
+
 ### 6. After your files are copied, then run these commands
    ```
    git add .
