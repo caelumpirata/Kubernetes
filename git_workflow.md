@@ -76,7 +76,7 @@ save the changes using  `ctrl + x` and then press `y` to save, then press  `ente
 >> 
 >> why??
 >> 
->> answer is to make your local code match with the `main` brach in the git,
+>> answer is to make your local code match with the `main` branch in the git,
 >>
 >>  your another colleagues might have made some changes while working in same project while you were away !
 >> 
