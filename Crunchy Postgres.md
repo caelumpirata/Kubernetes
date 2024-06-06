@@ -6,6 +6,10 @@ i followed this and it worked
 ```bash
 https://github.com/CrunchyData/postgres-operator/issues/3084
 ```
+official reference
+```bash
+https://access.crunchydata.com/documentation/postgres-operator/5.2.7/guides/storage-retention/
+```
 
 my `pv` was of 1GB and while troubleshooting when i got the space related error, i edited the confing file and changed it to 5GB [after doing this still my data was there]
 
