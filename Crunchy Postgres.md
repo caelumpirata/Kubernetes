@@ -137,3 +137,10 @@ spec:
           - host      all  all  0.0.0.0/0   md5
 
 ```
+## change default password of crunchy postgres
+
+as my secret is in `default` namespace
+```
+kubectl patch secret user1postgres-pguser-user1 -p \
+   '{"stringData":{"password":"dog","verifier":""}}'
+```
