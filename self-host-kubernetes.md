@@ -48,6 +48,23 @@ apply this
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/baremetal/deploy.yaml
 ```
+## you must schedule ingress-pod on master node
+add this  in ingress controller deployment
+```
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        preference:
+          matchExpressions:
+            - key: node-role.kubernetes.io/master
+              operator: In
+              values:
+                - ''
+tolerations:
+  - key: node-role.kubernetes.io/master
+    effect: NoSchedule
+```
 other ways of installing,
 ```
 https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/index.md#quick-start
