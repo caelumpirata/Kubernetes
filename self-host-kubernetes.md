@@ -55,8 +55,8 @@ label master node.
 kubectl label nodes master1 ingress-nginx-controller=true
 ```
 add this  in ingress controller deployment
-```
-	    nodeSelector:
+```yaml
+      nodeSelector:
         ingress-nginx-controller: "true"
       affinity:
         nodeAffinity:
