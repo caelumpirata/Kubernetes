@@ -12,7 +12,10 @@ source:
 ```
 https://github.com/kubeedge/edgemesh/issues/403
 ```
-
+can't access the  edgenode pod using dns
+```
+https://github.com/kubeedge/kubeedge/issues/3630
+```
 
 # Edgemesh :v1.12.0 (4 agent doing all the work )
 ```
